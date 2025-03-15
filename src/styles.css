@@ -9,7 +9,7 @@ body {
 }
 .grid {
   display: grid;
-  grid-gap: 50px;
+  grid-gap: 64px;
 }
 
 .img-responsive {
@@ -23,6 +23,11 @@ body {
 .grid-3-columns {
   display: grid;
   grid-template-columns: 1fr 2fr 2fr;
+}
+section {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 100px 0;
 }
 
 header {
@@ -71,16 +76,8 @@ header a {
   background: white;
 }
 
-section {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 30px;
-  padding: 100px 0;
-}
-
 main {
   background-color: white;
-  padding: 30px;
 }
 
 main h2 {
@@ -109,10 +106,6 @@ main p {
   line-height: 1.5;
   color: #272044;
   opacity: 0.7;
-}
-
-.img-responsive {
-  max-width: 100%;
 }
 
 footer {
