@@ -236,6 +236,12 @@ footer ul {
 }
 
 @media (max-width: 960px) {
+  .video-responsive {
+    width: 100%;
+    max-width: 100%;
+    aspect-ratio: 16 / 9;
+  }
+
   footer {
     padding: 30px 0;
   }
